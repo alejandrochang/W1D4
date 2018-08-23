@@ -34,6 +34,7 @@ class SudokuGame
       puts "Please enter a value between 1 and 9 (0 to clear the tile)"
       print "> "
       val = parse_val(gets.chomp)
+
     end
     val
   end
